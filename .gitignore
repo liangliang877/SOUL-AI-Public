@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# API 密钥
+.env
+.env.*
+!.env.example
+*credentials*
+*secret*
+# SOUL 私人数据
+soul_profile.json
+soul_conversation_counter.json
+SOUL_MEMORY/
+soul_match_send_state/
+soul_greeting_send_state/
+soul_bell_send_state/
+# 运行记录
+*.log
+logs/
+.DS_Store
+
+# 本地历史开发说明
+README_V7_*.txt
+README_先看这里.txt
+
+# SOUL 运行时私人数据
+*.pending.json
+*.sent.json
+*.json.tmp
+*soul*log*.jsonl
